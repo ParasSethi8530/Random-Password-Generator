@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Random Password Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Generate a <br />
+        <span>Random Password</span>
+      </h1>
+      <div class="display">
+        <input id="password" type="text" placeholder="Password" />
+
+        <img
+          id="copybtn"
+          src="images/copy.png"
+          alt="this is the image of copy sign"
+        />
+      </div>
+      <div class="pass-rule">
+        <input id="range" type="range" min="1" max="15" value="8" />
+        <div class="row">
+          <p>Password Length</p>
+          <span id="slidervalue"></span>
+        </div>
+        <div class="row">
+          <label for="lower-case">Include Lower Case (a-z)</label>
+          <input type="checkbox" name="lower-case" id="lower-case" />
+        </div>
+        <div class="row">
+          <label for="upper-case">Include Upper Case (A-Z)</label>
+          <input type="checkbox" name="upper-case" id="upper-case" />
+        </div>
+        <div class="row">
+          <label for="numbers">Include Numbers (0-9)</label>
+          <input type="checkbox" name="numbers" id="numbers" />
+        </div>
+        <div class="row">
+          <label for="symbols">Include Symbols (@#$)</label>
+          <input type="checkbox" name="symbols" id="symbols" />
+        </div>
+      </div>
+      <button id="btn" onclick="generatePassword()">
+        <img src="images/generate.png" alt="png of thunder for generate" />
+        Generate Password
+      </button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
