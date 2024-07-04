@@ -36,7 +36,7 @@ The random password generator provides a user-friendly interface for generating 
 
 ## Demo
 
-You can check out a live demo of the password generator [here](https://example.com).
+You can check out a live demo of the password generator [https://random-password-generator-js-css-html.netlify.app].
 
 ## Contributing
 
