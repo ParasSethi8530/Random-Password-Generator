@@ -45,3 +45,10 @@ If you'd like to contribute to this project, please fork the repository and subm
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Screenshot
+
+![pass](https://github.com/ParasSethi8530/Random-Password-Generator/assets/133093100/32b984bf-1f31-4d5f-81bf-ca05ecf11e5c)
+![pass 2](https://github.com/ParasSethi8530/Random-Password-Generator/assets/133093100/3362f17d-3fe2-4ab3-9399-b15379abc7f0)
+![pass 3](https://github.com/ParasSethi8530/Random-Password-Generator/assets/133093100/a4d4e8e4-4ab2-4b66-9f16-f0d7e5f5df47)
+![pass 1](https://github.com/ParasSethi8530/Random-Password-Generator/assets/133093100/b857f875-582e-4460-8b15-316082c9c9e2)
